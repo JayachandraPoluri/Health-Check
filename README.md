@@ -1,8 +1,8 @@
 # HTTP Endpoint Health Checker
-Overview
+*Overview:*
 The HTTP Endpoint Health Checker is a Python script designed to monitor the health of specified HTTP endpoints. The script checks each endpoint at regular intervals, logging their availability status and response times.
 
-Features
+Features:
 Periodic health checks for multiple HTTP endpoints.
 Configurable via a YAML file.
 Option for detailed output in test mode.
