@@ -24,11 +24,16 @@ The HTTP Endpoint Health Checker is a Python script designed to monitor the heal
 ```
 
 ## *Usage:*
-Run the script with the path to the configuration file [rplace input.yaml file with desired yaml configured file]. Optionally, enable test mode for detailed output:
+Run the script with the path to the configuration file [replace input.yaml file with path of desired yaml configured file].
 
 ```bash
-python health_check.py input.yaml [--test]
+python health_check.py input.yaml
 ```
+Optionally, enable test mode for detailed output:
+ ```bash
+python health_check.py input.yaml --test
+```
+*Note:* I used input.yaml in same folder for testing the code, you can replace it with path of you desired configured yaml file.
 
 ## *Author*
 Jayachandra Poluri
